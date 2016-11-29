@@ -28,6 +28,6 @@ app.get('*', function(req, res) {
     res.render('index');
 });
 
-var port = 8080;
+var port = 5000;
 app.listen(port);
 console.log('Listening on port ' + port + '...');
